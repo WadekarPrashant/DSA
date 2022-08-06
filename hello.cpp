@@ -1,7 +1,10 @@
 #include<iostream>
 using namespace std;
 
-
 int main(){
-    cout<<"Namaste ";
+
+    cout<<"How are you!!";
+
+    return 0;
+
 }
