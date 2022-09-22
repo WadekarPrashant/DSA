@@ -6,6 +6,11 @@ int main ()
     int Number1,Number2;
     cout<<"Please Enter the First number:";
     cin>>Number1;
+
+    
+   
+   
+   
     cout<<"Please Enter the second number:";
     cin>>Number2;
  while (Number2 != 0)
