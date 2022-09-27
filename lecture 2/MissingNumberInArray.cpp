@@ -7,6 +7,7 @@ void findMissing(int arr[], int N)
 {
     int i;
     int temp[N + 1];
+    // hello
     for(int i = 0; i <= N; i++){
       temp[i] = 0;
     }
