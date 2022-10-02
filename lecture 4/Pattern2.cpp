@@ -1,4 +1,10 @@
 // if the number of rows and columns are not same 
+// if rows-4  columns=2
+// then
+// **
+// **
+// **
+// **
 
 #include<iostream>
 using namespace std;
