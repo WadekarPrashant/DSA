@@ -1,8 +1,8 @@
 // Printing numbers
-// 1
-// 22
-// 333
-// 4444
+// *
+// **
+// ***
+// ****
 
 // if the number (n) of rows and columns are same 
 // i is the  rows 
@@ -18,11 +18,11 @@ int main()
     cout<<"Enter the no. of rows or columns";
     cin>>n;
 
-    int i=1;
-    while(i<=n){ 
-          int j=1;
+    int i=0;
+    while(i<n){ 
+          int j=0;
         while(j<=i){ 
-            cout<<i;
+            cout<<"*";
             j++;
         }
             cout<<endl;
