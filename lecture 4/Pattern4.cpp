@@ -22,7 +22,7 @@ int main()
         int j=1;
         while(j<=n){
             
-            cout<<j;
+            cout<<j<<"";
             j++;
         }
             cout<<endl;
