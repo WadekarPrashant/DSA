@@ -1,10 +1,13 @@
+
+// Printing numbers
+// 1
+// 22
+// 333
+// 4444
+
 // if the number (n) of rows and columns are same 
 // i is the  rows 
 // j is the  columns
-
-// IF N=2
-// **
-// **
 
 #include<iostream>
 using namespace std;
@@ -15,11 +18,12 @@ int main()
     cout<<"Enter the no. of rows or columns";
     cin>>n;
 
-    int i=0;
-    while(i<n){ 
+    int i=1;
+    while(i<=n){ 
         int j=0;
         while(j<n){
-            cout<<"*"<<" ";
+            
+            cout<<i;
             j++;
         }
             cout<<endl;
@@ -28,4 +32,3 @@ int main()
 
     return 0;
 } 
-
